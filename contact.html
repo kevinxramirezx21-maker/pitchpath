@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | PitchPath</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="mark"></span> PitchPath</a>
+      <button class="menu-btn" type="button">Menu</button>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="recruiting.html">Recruiting</a>
+        <a href="pathways.html">Pathways</a>
+        <a href="apply.html">Apply</a>
+        <a class="btn" href="contact.html">Talk to a scout</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Contact</p>
+      <h1>Talk with a scout or program lead.</h1>
+      <p class="lede">Club directors, college coaches, and families all use the same desk. Tell us who you are and what you need.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <form data-form>
+        <label>Your name<input name="name" required></label>
+        <label>Email<input name="email" type="email" required></label>
+        <label>I am a
+          <select name="role">
+            <option>Parent or guardian</option>
+            <option>Player</option>
+            <option>Club or high school coach</option>
+            <option>College or pro staff</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" required></textarea></label>
+        <button class="btn" type="submit">Send message</button>
+        <p class="success"></p>
+      </form>
+      <div>
+        <article class="card">
+          <h3>Scout desk</h3>
+          <p>scouts@pitchpath.example</p>
+          <p style="margin-top:8px">Weekdays, nine to five Pacific.</p>
+        </article>
+        <article class="card" style="margin-top:14px">
+          <h3>ID days</h3>
+          <p>Open sessions are posted on the recruiting page. Private looks are scheduled after the interest form.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div>PitchPath contact</div>
+      <div>© <span data-year></span></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

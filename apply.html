@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply | PitchPath</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="mark"></span> PitchPath</a>
+      <button class="menu-btn" type="button">Menu</button>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="recruiting.html">Recruiting</a>
+        <a href="pathways.html">Pathways</a>
+        <a href="apply.html">Apply</a>
+        <a class="btn" href="contact.html">Talk to a scout</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Apply</p>
+      <h1>Put a player on the board.</h1>
+      <p class="lede">Players, parents, or coaches can submit. Film helps. It is not required for younger age groups.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="max-width:720px">
+      <form data-form>
+        <label>Player name<input name="name" required></label>
+        <label>Age<input name="age" type="number" min="4" max="50" required></label>
+        <label>Gender
+          <select name="gender" required>
+            <option value="">Select</option>
+            <option>Girl / woman</option>
+            <option>Boy / man</option>
+            <option>Prefer not to say</option>
+          </select>
+        </label>
+        <label>Position<input name="position" placeholder="Forward, midfield, keeper..."></label>
+        <label>Current club or school<input name="club"></label>
+        <label>Film link<input name="film" type="url" placeholder="https://"></label>
+        <label>What are you looking for?
+          <select name="goal">
+            <option>Development training</option>
+            <option>Recruiting evaluation</option>
+            <option>College pathway</option>
+            <option>Professional trial prep</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Notes<textarea name="notes" placeholder="Schedule, injuries, coach contact..."></textarea></label>
+        <button class="btn" type="submit">Send interest form</button>
+        <p class="success"></p>
+        <p class="note">This demo form stays on the page. Hook it to Formspree or your email when you go live.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div>PitchPath apply</div>
+      <div>© <span data-year></span></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
