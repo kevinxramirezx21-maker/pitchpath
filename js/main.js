@@ -13,7 +13,7 @@
       var box = form.querySelector(".success");
       if (box) {
         box.style.display = "block";
-        box.textContent = "Got it. A PitchPath scout will follow up within two business days.";
+        box.textContent = "Got it. A 2Touch scout will follow up within two business days.";
       }
       form.reset();
     });
